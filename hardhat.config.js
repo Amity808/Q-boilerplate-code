@@ -26,6 +26,11 @@ function forceTypechain() {
 
 module.exports = {
   networks: {
+      alfajores: {
+        url: "https://alfajores-forno.celo-testnet.org",
+        accounts: privateKey(),
+        chainId: 44787,
+      },
     hardhat: {
       initialDate: "1970-01-01T00:00:00Z",
       accounts: {
